@@ -3,10 +3,10 @@ package nepjr.gbcore;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import nepjr.gbcore.GBTags;
-
+import nepjr.gbcore.mte.MTERegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = GBTags.MODID, 
@@ -21,6 +21,12 @@ public class GBCore
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		
+		MTERegistry.init();
+	}
+	
+	@EventHandler
+	public void postInit(FMLPostInitializationEvent event)
+	{
+		GBRecipe.init();
 	}
 }
