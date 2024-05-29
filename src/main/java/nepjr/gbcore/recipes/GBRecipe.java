@@ -1,4 +1,4 @@
-package nepjr.gbcore;
+package nepjr.gbcore.recipes;
 
 import gregtech.api.unification.material.Materials;
 import gregtech.api.unification.ore.OrePrefix;

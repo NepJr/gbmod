@@ -18,9 +18,8 @@ import gregtech.api.util.GTUtility;
 import gregtech.api.util.Mods;
 import gregtech.client.renderer.ICubeRenderer;
 import gregtech.client.renderer.texture.Textures;
-import gregtech.common.metatileentities.MetaTileEntities;
 import gregtech.integration.jei.multiblock.MultiblockInfoCategory;
-import nepjr.gbcore.GBRecipeMaps;
+import nepjr.gbcore.recipes.GBRecipeMaps;
 import net.minecraft.util.ResourceLocation;
 
 import static gregtech.api.util.GTUtility.gregtechId;

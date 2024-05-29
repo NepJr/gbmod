@@ -1,4 +1,4 @@
-package nepjr.gbcore;
+package nepjr.gbcore.recipes;
 
 import gregtech.api.gui.GuiTextures;
 import gregtech.api.gui.widgets.ProgressWidget.MoveType;
