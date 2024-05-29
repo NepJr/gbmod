@@ -18,7 +18,7 @@ import gregtech.api.util.GTUtility;
 import gregtech.api.util.Mods;
 import gregtech.client.renderer.ICubeRenderer;
 import gregtech.client.renderer.texture.Textures;
-import gregtech.common.metatileentities.electric.MetaTileEntitySingleCombustion;
+import gregtech.common.metatileentities.MetaTileEntities;
 import gregtech.integration.jei.multiblock.MultiblockInfoCategory;
 import nepjr.gbcore.GBRecipeMaps;
 import net.minecraft.util.ResourceLocation;
@@ -41,6 +41,11 @@ public class MTERegistry
 						Textures.ELECTRIC_FURNACE_OVERLAY,
 						0,
 						GTUtility.defaultTankSizeFunction));
+		
+		registerMetaTileEntity(4001, new SimpleMachineMetaTileEntity(gregtechId("sifter.ulv"),
+						RecipeMaps.SIFTER_RECIPES,
+						Textures.SIFTER_OVERLAY,
+						0, true));
 	}
 	
     private static void registerSimpleMetaTileEntity(SimpleMachineMetaTileEntity[] machines,
