@@ -152,6 +152,8 @@ public class MTEBurnerGenerator extends WorkableTieredMetaTileEntity implements 
                 I18n.format("gregtech.universal.tooltip.energy_storage_capacity", energyContainer.getEnergyCapacity()));
         tooltip.add(
         		I18n.format("gbmod.tooltip.burner.generator"));
+        tooltip.add(
+        		I18n.format("gbmod.tooltip.burner.generator.alternative"));
     }
 	
 	protected ModularUI.Builder createGuiTemplate(EntityPlayer player) {

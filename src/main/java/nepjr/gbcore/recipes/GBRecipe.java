@@ -11,5 +11,11 @@ public class GBRecipe
 				.EUt(8)
 				.duration(10)
 				.buildAndRegister();
+		
+		GBRecipeMaps.BURNER_GENERATOR.recipeBuilder()
+				.input(OrePrefix.block, Materials.Charcoal)
+				.EUt(8)
+				.duration(90)
+				.buildAndRegister();
 	}
 }
