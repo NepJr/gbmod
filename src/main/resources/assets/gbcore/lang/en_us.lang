@@ -3,5 +3,6 @@ gbmod.tooltip.burner.generator=§c§lRequires 1 charcoal every 10 ticks!!!
 gbmod.tooltip.burner.generator.alternative=Alternatively, you can use a Block of Charcoal and it will last 90 ticks
 
 tile.blockDust.name=Dust
+tile.enderium_casing.name=Enderium Casing
 
 gregtech.machine.sifter.ulv.name=Crappy Sifter
